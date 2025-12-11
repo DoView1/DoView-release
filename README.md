@@ -10,9 +10,9 @@
 </p>
 
 <p align="center">
-  <a href="#features">기능</a> •
-  <a href="#download">다운로드</a> •
-  <a href="#shortcuts">단축키</a>
+
+  <a href="#download">[다운로드](https://github.com/DoView1/DoView-release/releases/latest)</a> •
+
 </p>
 
 ---
@@ -56,3 +56,4 @@
 ## 📄 License
 
 DoView License - 자유로운 사용 및 재배포 허용 (상업적 이용 포함), 수정/역분석 금지
+자세한 내용은 [LICENSE](./LICENSE)를 참고하세요.
