@@ -55,3 +55,53 @@
 
 DoView License - 자유로운 사용 및 재배포 허용 (상업적 이용 포함), 수정/역분석 금지
 자세한 내용은 [LICENSE](./LICENSE)를 참고하세요.
+
+---
+
+## 🇺🇸 English
+
+<p align="center">
+  <strong>Premium Image Viewer</strong><br>
+  Enjoy webtoons, manga, and images with ease
+</p>
+
+## ✨ Features
+
+- 🖼️ **18+ Image Formats** - JPG, PNG, GIF, WEBP, AVIF, HEIC, SVG, TIFF, etc.
+- 📚 **Archive Support** - ZIP, CBZ, 7Z, RAR, CBR, TAR
+- 🎨 **Image Adjustments** - Brightness, Contrast, Saturation, Sharpness
+- 🤖 **AI Translation** - Gemini, OpenAI, Claude API integration
+- 🌍 **11 Languages** - Korean, English, Japanese, Chinese, etc.
+- 🎭 **4 Themes** - Light, Dark, DoView, AMOLED
+- 📊 **EXIF/IPTC Metadata** viewer
+- ⌨️ **Keyboard Shortcuts**
+- 📌 **Bookmarks & Reading Position**
+
+## 📦 Download
+
+[**Download Latest Release**](https://github.com/DoView1/DoView-release/releases/latest)
+
+- `DoView-x.x.x-portable.zip` - Portable executable (No install, Windows 10/11)
+
+## ⌨️ Shortcuts
+
+| Key | Function | Key | Function |
+|-----|----------|-----|----------|
+| `Tab` | Toggle Sidebar | `T` | Translate Image |
+| `Space` | Scroll (page on end) | `I` | Image Info |
+| `Shift+Space` | Scroll Up | `F` | Filter Panel |
+| `↑` `↓` | Navigate Images | `V` | Toggle View Mode |
+| `1-9` | Jump to % Position | `A` | Auto Scroll |
+| `+` `-` | Zoom In/Out | `R` | Rotate Image |
+| `0` | Reset Zoom | `B` | Bookmark |
+| `H` | Shortcuts Help | `F11` | Fullscreen |
+| `ESC` | Close | | |
+
+## 💖 Donate
+
+If DoView helped you, support us at [Donation](https://ctee.kr/place/doview) or [buymeacoffee](https://buymeacoffee.com/doview).
+
+## 📄 License
+
+DoView License - Free to use and redistribute (including commercial use). Modification and reverse engineering prohibited.
+See [LICENSE](./LICENSE) for details.
