@@ -10,9 +10,7 @@
 </p>
 
 <p align="center">
-
-  <a href="#download">[다운로드](https://github.com/DoView1/DoView-release/releases/latest)</a> •
-
+  <a href="https://github.com/DoView1/DoView-release/releases/latest"><strong>다운로드</strong></a>
 </p>
 
 ---
