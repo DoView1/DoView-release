@@ -19,6 +19,10 @@ Small paid pilot:
 - Exact English/Korean replacement copy where useful
 - Delivery within 24 hours after payment confirmation
 
+Payment is handled only after scope confirmation. For small pilots, I can use a PayPal request or the public support link already used for DoView:
+
+- https://buymeacoffee.com/doview
+
 ## Best-Fit Work
 
 - Korean localization QA
@@ -79,6 +83,7 @@ I have experience in:
 - I do not need passwords, private accounts, ID documents, bank details, or remote control access.
 - I do not claim native English or native Japanese.
 - I keep the scope small and deliver concrete notes.
+- I confirm payment scope before starting paid work.
 
 ## Korean Summary
 
