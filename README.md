@@ -31,7 +31,10 @@
 
 [**최신 릴리즈 다운로드**](https://github.com/DoView1/DoView-release/releases/latest)
 
-- `DoView-x.x.x-portable.zip` - 포터블 실행 파일 (설치 불필요, Windows 10/11)
+- `DoView-Setup-x.x.x.exe` - 설치형: Windows 파일 연결 및 앱 내 업데이트
+- `DoView.vx.x.x.zip` - 무설치형: 전체 압축을 풀고 실행하며 설정과 기록은 옆의 `Data` 폴더에 저장됩니다. 업데이트할 때 기존 `Data` 폴더를 새 폴더로 옮기세요.
+
+Windows 배포 파일은 코드 서명 없이 제공되므로 게시자 확인 또는 SmartScreen 경고가 표시될 수 있습니다.
 
 ## ⌨️ Shortcuts
 
@@ -81,7 +84,10 @@ DoView License - 자유로운 사용 및 재배포 허용 (상업적 이용 포�
 
 [**Download Latest Release**](https://github.com/DoView1/DoView-release/releases/latest)
 
-- `DoView-x.x.x-portable.zip` - Portable executable (No install, Windows 10/11)
+- `DoView-Setup-x.x.x.exe` - Installer with Windows file associations and in-app updates.
+- `DoView.vx.x.x.zip` - Portable bundle: extract the whole ZIP; settings and reading history stay in the adjacent `Data` folder. Keep your `Data` folder when replacing the application with a new version.
+
+Windows artifacts are unsigned; Windows publisher or SmartScreen prompts may appear.
 
 ## ⌨️ Shortcuts
 
