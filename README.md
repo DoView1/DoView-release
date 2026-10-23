@@ -20,7 +20,7 @@
 - 🖼️ **18+ 이미지 포맷 지원** - JPG, PNG, GIF, WEBP, AVIF, HEIC, SVG, TIFF 등
 - 📚 **압축 파일 지원** - ZIP, CBZ, 7Z, RAR, CBR, TAR
 - 🎨 **이미지 보정** - 밝기, 대비, 채도, 선명도
-- 🤖 **AI 번역 (Windows 1.2.11)** - 별도 설치하는 로컬 E4B Q4 엔진을 사용합니다. 엔진은 뷰어에 포함되지 않으며 공개 다운로드는 아직 제공하지 않습니다.
+- 🤖 **AI 번역 (Windows 1.2.12)** - 첫 번역 요청에서 다운로드 버튼으로 로컬 E4B Q4 엔진을 설치합니다. API 키나 Python 설치가 필요 없으며, 취소·앱 재시작 후 이어받기를 지원합니다.
 - 🌍 **11개 언어** - 한국어, 영어, 일본어, 중국어 등
 - 🎭 **4가지 테마** - 라이트, 다크, 두뷰, AMOLED
 - 📊 **EXIF/IPTC 메타데이터** 보기
@@ -31,12 +31,14 @@
 
 [**최신 릴리즈 다운로드**](https://github.com/DoView1/DoView-release/releases/latest)
 
-Windows 최신 버전은 **1.2.11**입니다. Linux는 기존 **1.2.10**을 유지하며, 최신 릴리스에도 동일한 원본 Linux 파일을 제공합니다.
+Windows 최신 버전은 **1.2.12**입니다. Linux는 기존 **1.2.10**을 유지하며, 최신 릴리스에도 동일한 원본 Linux 파일을 제공합니다.
 
 - `DoView-Setup-x.x.x.exe` - 설치형: Windows 파일 연결 및 앱 내 업데이트
 - `DoView.vx.x.x.zip` - 무설치형: 전체 압축을 풀고 실행하며 설정과 기록은 옆의 `Data` 폴더에 저장됩니다. 업데이트할 때 기존 `Data` 폴더를 새 폴더로 옮기세요.
 
 Windows 배포 파일은 코드 서명 없이 제공되므로 게시자 확인 또는 SmartScreen 경고가 표시될 수 있습니다.
+
+AI 엔진 다운로드는 약 **11.30GB**, 새 설치에는 약 **11.57GB**의 여유 공간이 필요합니다. 일반 보기는 엔진 없이 사용할 수 있습니다. 설치 후 번역은 이 컴퓨터에서 처리하며, 속도와 GPU 사용 가능 여부는 PC에 따라 달라집니다. [AI 구성요소 이용 조건](https://github.com/DoView1/DoView-ai-engine/blob/main/TERMS.md) · [OCR 대응 소스](https://github.com/DoView1/DoView-ai-engine/blob/main/SOURCES.md)
 
 ## ⌨️ Shortcuts
 
@@ -75,7 +77,7 @@ DoView License - 자유로운 사용 및 재배포 허용 (상업적 이용 포�
 - 🖼️ **18+ Image Formats** - JPG, PNG, GIF, WEBP, AVIF, HEIC, SVG, TIFF, etc.
 - 📚 **Archive Support** - ZIP, CBZ, 7Z, RAR, CBR, TAR
 - 🎨 **Image Adjustments** - Brightness, Contrast, Saturation, Sharpness
-- 🤖 **AI Translation (Windows 1.2.11)** - Uses a separately installed local E4B Q4 engine. The engine is not bundled with the viewer, and a public engine download is not yet available.
+- 🤖 **AI Translation (Windows 1.2.12)** - Install the local E4B Q4 engine with the download button on your first translation request. No API key or separate Python installation is needed. Downloads can resume after cancellation or restarting the app.
 - 🌍 **11 Languages** - Korean, English, Japanese, Chinese, etc.
 - 🎭 **4 Themes** - Light, Dark, DoView, AMOLED
 - 📊 **EXIF/IPTC Metadata** viewer
@@ -86,12 +88,14 @@ DoView License - 자유로운 사용 및 재배포 허용 (상업적 이용 포�
 
 [**Download Latest Release**](https://github.com/DoView1/DoView-release/releases/latest)
 
-The latest Windows version is **1.2.11**. Linux remains on **1.2.10**; the latest release also includes the unchanged original Linux files.
+The latest Windows version is **1.2.12**. Linux remains on **1.2.10**; the latest release also includes the unchanged original Linux files.
 
 - `DoView-Setup-x.x.x.exe` - Installer with Windows file associations and in-app updates.
 - `DoView.vx.x.x.zip` - Portable bundle: extract the whole ZIP; settings and reading history stay in the adjacent `Data` folder. Keep your `Data` folder when replacing the application with a new version.
 
 Windows artifacts are unsigned; Windows publisher or SmartScreen prompts may appear.
+
+The AI engine download is approximately **11.30GB** and a new installation requires approximately **11.57GB** of free space. Ordinary viewing works without the engine. Translation runs locally after installation; speed and GPU availability depend on your PC. [AI component terms](https://github.com/DoView1/DoView-ai-engine/blob/main/TERMS.md) · [Corresponding OCR source](https://github.com/DoView1/DoView-ai-engine/blob/main/SOURCES.md)
 
 ## ⌨️ Shortcuts
 
