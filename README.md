@@ -31,7 +31,7 @@
 
 [**최신 릴리즈 다운로드**](https://github.com/DoView1/DoView-release/releases/latest)
 
-Windows 최신 버전은 **1.2.13**입니다. Linux는 기존 **1.2.10**을 유지하며, 최신 릴리스에도 동일한 원본 Linux 파일을 제공합니다.
+Windows와 Linux x64 최신 버전은 **1.2.13**입니다. 새 설정은 **화면 전체 맞춤**을 기본으로 사용하며, 기존에 저장한 맞춤 설정은 유지합니다. Linux는 AppImage·DEB·tar.gz를 제공합니다.
 
 - `DoView-Setup-x.x.x.exe` - 설치형: Windows 파일 연결 및 앱 내 업데이트
 - `DoView.vx.x.x.zip` - 무설치형: 전체 압축을 풀고 실행하며 설정과 기록은 옆의 `Data` 폴더에 저장됩니다. 업데이트할 때 기존 `Data` 폴더를 새 폴더로 옮기세요.
@@ -88,7 +88,7 @@ DoView License - 자유로운 사용 및 재배포 허용 (상업적 이용 포�
 
 [**Download Latest Release**](https://github.com/DoView1/DoView-release/releases/latest)
 
-The latest Windows version is **1.2.13**. Linux remains on **1.2.10**; the latest release also includes the unchanged original Linux files.
+The latest Windows and Linux x64 version is **1.2.13**. New settings use **Fit entire image** by default; existing fit preferences are preserved. Linux builds are available as AppImage, DEB, and tar.gz.
 
 - `DoView-Setup-x.x.x.exe` - Installer with Windows file associations and in-app updates.
 - `DoView.vx.x.x.zip` - Portable bundle: extract the whole ZIP; settings and reading history stay in the adjacent `Data` folder. Keep your `Data` folder when replacing the application with a new version.
