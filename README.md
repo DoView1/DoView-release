@@ -31,12 +31,12 @@
 
 [**최신 릴리즈 다운로드**](https://github.com/DoView1/DoView-release/releases/latest)
 
-최신 버전은 **Windows 1.3.1**, **Linux x64 1.3.1**입니다. 새 설정은 **화면 전체 맞춤**을 기본으로 사용하며, 기존에 저장한 맞춤 설정은 유지합니다. Linux는 AppImage·DEB·tar.gz를 제공합니다.
+최신 버전은 **Windows 1.3.2**, **Linux x64 1.3.2**입니다. 새 설정은 **화면 전체 맞춤**을 기본으로 사용하며, 기존에 저장한 맞춤 설정은 유지합니다. Linux는 AppImage·DEB·tar.gz를 제공합니다.
 
 V2 디자인이 기본입니다. 기존 사용자도 1.3.1에서 한 번 V2로 전환되며, 이후 설정에서 Classic 또는 V2를 선택하면 다음 실행에도 유지됩니다.
 
 - `DoView-Setup-x.x.x.exe` - 설치형: Windows 파일 연결 및 앱 내 업데이트. 설정에서 업데이트를 다운로드한 뒤 재시작하면 기존 설치가 갱신됩니다. ZIP을 직접 풀 필요가 없습니다.
-- `DoView.vx.x.x.zip` - 무설치형: 전체 압축을 풀고 실행하며 설정과 기록은 옆의 `Data` 폴더에 저장됩니다. 업데이트할 때 기존 `Data` 폴더를 새 폴더로 옮기세요.
+- `DoView.vx.x.x.zip` - 무설치형: 전체 압축을 풀고 실행하며 설정과 기록은 옆의 `Data` 폴더에 저장됩니다. 1.3.2부터는 설정에서 업데이트를 다운로드하고 재시작하면 `Data`를 유지한 채 앱 파일이 갱신됩니다. 1.3.1 이하에서 처음 1.3.2로 옮길 때는 두뷰를 종료하고 새 ZIP을 현재 두뷰 폴더에 풀어 앱 파일을 덮어쓰세요. 기존 `Data` 폴더는 그대로 유지하세요.
 
 Windows 배포 파일은 코드 서명 없이 제공되므로 게시자 확인 또는 SmartScreen 경고가 표시될 수 있습니다.
 
@@ -90,12 +90,12 @@ DoView License - 자유로운 사용 및 재배포 허용 (상업적 이용 포�
 
 [**Download Latest Release**](https://github.com/DoView1/DoView-release/releases/latest)
 
-The latest versions are **Windows 1.3.1** and **Linux x64 1.3.1**. New settings use **Fit entire image** by default; existing fit preferences are preserved. Linux builds are available as AppImage, DEB, and tar.gz.
+The latest versions are **Windows 1.3.2** and **Linux x64 1.3.2**. New settings use **Fit entire image** by default; existing fit preferences are preserved. Linux builds are available as AppImage, DEB, and tar.gz.
 
 V2 is the default design. Existing users switch to V2 once in 1.3.1; any subsequent Classic or V2 selection in Settings is preserved on restart.
 
 - `DoView-Setup-x.x.x.exe` - Installer with Windows file associations and in-app updates. Download the update in Settings, then restart to update your existing installation; no manual ZIP extraction is needed.
-- `DoView.vx.x.x.zip` - Portable bundle: extract the whole ZIP; settings and reading history stay in the adjacent `Data` folder. Keep your `Data` folder when replacing the application with a new version.
+- `DoView.vx.x.x.zip` - Portable bundle: extract the whole ZIP; settings and reading history stay in the adjacent `Data` folder. From 1.3.2 onward, download updates in Settings and restart to replace application files while keeping `Data`. To move from 1.3.1 or earlier to 1.3.2 for the first time, close DoView and extract the new ZIP into your current DoView folder, overwriting application files. Keep the existing `Data` folder.
 
 Windows artifacts are unsigned; Windows publisher or SmartScreen prompts may appear.
 
