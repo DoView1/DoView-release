@@ -37,6 +37,8 @@
 
 MS Store판은 등록 준비 중이며 아직 제출·출시하지 않았습니다.
 
+[개인정보 처리방침 / Privacy Policy](https://github.com/DoView1/DoView-release/blob/main/PRIVACY.md) · 시행일: 2026-11-12 · 개인정보 문의: yym0760@gmail.com
+
 V2 디자인이 기본입니다. 기존 사용자도 1.3.1에서 한 번 V2로 전환되며, 이후 설정에서 Classic 또는 V2를 선택하면 다음 실행에도 유지됩니다.
 
 - `DoView-Setup-x.x.x.exe` - 설치형: Windows 파일 연결 및 앱 내 업데이트. 설정에서 업데이트를 다운로드한 뒤 재시작하면 기존 설치가 갱신됩니다. ZIP을 직접 풀 필요가 없습니다.
@@ -100,6 +102,8 @@ The latest versions are **Windows 1.3.4** and **Linux x64 1.3.2**. New settings 
 
 The Microsoft Store edition is being prepared and has not been submitted or released.
 
+[Privacy Policy / 개인정보 처리방침](https://github.com/DoView1/DoView-release/blob/main/PRIVACY.md) · Effective date: 2026-11-12 · Privacy contact: yym0760@gmail.com
+
 V2 is the default design. Existing users switch to V2 once in 1.3.1; any subsequent Classic or V2 selection in Settings is preserved on restart.
 
 - `DoView-Setup-x.x.x.exe` - Installer with Windows file associations and in-app updates. Download the update in Settings, then restart to update your existing installation; no manual ZIP extraction is needed.
@@ -131,4 +135,5 @@ If DoView helped you, support us at [Donation](https://ctee.kr/place/doview) or 
 
 DoView License - Free to use and redistribute (including commercial use). Modification and reverse engineering prohibited.
 Licenses and notices for bundled third-party components are included in the distribution as `NOTICE.txt`, `THIRD_PARTY_LICENSES.txt`, `LICENSE.electron.txt`, and `LICENSES.chromium.html`.
+
 
