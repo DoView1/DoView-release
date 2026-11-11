@@ -31,9 +31,11 @@
 
 [**최신 릴리즈 다운로드**](https://github.com/DoView1/DoView-release/releases/latest)
 
-최신 버전은 **Windows 1.3.4**, **Linux x64 1.3.2**입니다. 새 설정은 **화면 전체 맞춤**을 기본으로 사용하며, 기존에 저장한 맞춤 설정은 유지합니다. Linux 1.3.4 업데이트를 검증 중이며, 완료 전까지 기존 1.3.2 파일을 유지합니다. 1.3.5는 Windows·Linux·macOS·Store의 같은 버전 출시를 준비하는 비공개 후보입니다.
+최신 공개 버전은 **Windows·Linux x64 모두 1.3.4**입니다. 새 설정은 **화면 전체 맞춤**을 기본으로 사용하며, 기존에 저장한 맞춤 설정은 유지합니다. Linux는 AppImage·DEB·tar.gz를 제공합니다. 선택형 로컬 AI 엔진은 현재 Windows x64 전용입니다. 1.3.5는 Windows·Linux·macOS·Store의 같은 버전 출시를 준비하는 비공개 후보입니다.
 
 [Windows 설치형 EXE](https://github.com/DoView1/DoView-release/releases/download/v1.3.4/DoView-Setup-1.3.4.exe) · [포터블 ZIP](https://github.com/DoView1/DoView-release/releases/download/v1.3.4/DoView.v1.3.4.zip) · [1.3.4 변경 사항](https://github.com/DoView1/DoView-release/releases/tag/v1.3.4) · [미서명 실행 안내](https://github.com/DoView1/DoView-release/releases/download/v1.3.4/WINDOWS-UNSIGNED.ko.md)
+
+[Linux AppImage](https://github.com/DoView1/DoView-release/releases/download/v1.3.4/DoView-1.3.4-linux-x86_64.AppImage) · [DEB](https://github.com/DoView1/DoView-release/releases/download/v1.3.4/DoView-1.3.4-linux-amd64.deb) · [tar.gz](https://github.com/DoView1/DoView-release/releases/download/v1.3.4/DoView-1.3.4-linux-x64.tar.gz)
 
 MS Store판 1.3.4는 심사 제출을 완료했으며, 아직 공개 출시하지 않았습니다.
 
@@ -96,9 +98,11 @@ DoView License - 자유로운 사용 및 재배포 허용 (상업적 이용 포�
 
 [**Download Latest Release**](https://github.com/DoView1/DoView-release/releases/latest)
 
-The latest versions are **Windows 1.3.4** and **Linux x64 1.3.2**. New settings use **Fit entire image** by default; existing fit preferences are preserved. Linux 1.3.4 is being validated; the existing 1.3.2 files remain available until it is ready. Version 1.3.5 is a private candidate for a coordinated Windows, Linux, macOS, and Store release.
+The latest public version is **1.3.4 for both Windows and Linux x64**. New settings use **Fit entire image** by default; existing fit preferences are preserved. Linux builds are available as AppImage, DEB, and tar.gz. The optional local AI engine currently runs on Windows x64 only. Version 1.3.5 is a private candidate for a coordinated Windows, Linux, macOS, and Store release.
 
 [Windows installer](https://github.com/DoView1/DoView-release/releases/download/v1.3.4/DoView-Setup-1.3.4.exe) · [Portable ZIP](https://github.com/DoView1/DoView-release/releases/download/v1.3.4/DoView.v1.3.4.zip) · [1.3.4 release notes](https://github.com/DoView1/DoView-release/releases/tag/v1.3.4)
+
+[Linux AppImage](https://github.com/DoView1/DoView-release/releases/download/v1.3.4/DoView-1.3.4-linux-x86_64.AppImage) · [DEB](https://github.com/DoView1/DoView-release/releases/download/v1.3.4/DoView-1.3.4-linux-amd64.deb) · [tar.gz](https://github.com/DoView1/DoView-release/releases/download/v1.3.4/DoView-1.3.4-linux-x64.tar.gz)
 
 Version 1.3.4 has been submitted to Microsoft Store certification and is not yet publicly released there.
 
