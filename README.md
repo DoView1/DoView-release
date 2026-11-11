@@ -21,7 +21,7 @@
 - 📚 **압축 파일 지원** - ZIP, CBZ, 7Z, RAR, CBR, TAR
 - 🎨 **이미지 보정** - 밝기, 대비, 채도, 선명도
 - 🤖 **AI 번역 (Windows 1.3.1)** - 설정 > AI 서비스에서 로컬 E4B Q4 엔진을 설치하고 번역 옵션을 관리합니다. 이미지·텍스트 번역에 API 키나 별도 Python 설치가 필요 없으며, 엔진 다운로드는 취소·앱 재시작 후 이어받을 수 있습니다.
-- 🌍 **UI 언어 지원** - Linux 1.3.5는 18개 언어, Windows 공개 버전 1.3.4는 11개 언어를 제공합니다.
+- 🌍 **11개 언어** - 한국어, 영어, 일본어, 중국어 등
 - 🎭 **4가지 테마** - 라이트, 다크, 두뷰, AMOLED
 - 📊 **EXIF/IPTC 메타데이터** 보기
 - ⌨️ **키보드 단축키** 지원
@@ -31,11 +31,9 @@
 
 [**최신 릴리즈 다운로드**](https://github.com/DoView1/DoView-release/releases/latest)
 
-최신 버전은 **Windows 1.3.4**, **Linux x64 1.3.5**입니다. 새 설정은 **화면 전체 맞춤**을 기본으로 사용하며, 기존에 저장한 맞춤 설정은 유지합니다. Linux 1.3.5는 AppImage·DEB·tar.gz와 18개 UI 언어를 제공합니다. 선택형 로컬 AI 엔진은 현재 Windows x64 전용입니다.
+최신 버전은 **Windows 1.3.4**, **Linux x64 1.3.2**입니다. 새 설정은 **화면 전체 맞춤**을 기본으로 사용하며, 기존에 저장한 맞춤 설정은 유지합니다. Linux 1.3.4 업데이트를 검증 중이며, 완료 전까지 기존 1.3.2 파일을 유지합니다. 1.3.5는 Windows·Linux·macOS·Store의 같은 버전 출시를 준비하는 비공개 후보입니다.
 
 [Windows 설치형 EXE](https://github.com/DoView1/DoView-release/releases/download/v1.3.4/DoView-Setup-1.3.4.exe) · [포터블 ZIP](https://github.com/DoView1/DoView-release/releases/download/v1.3.4/DoView.v1.3.4.zip) · [1.3.4 변경 사항](https://github.com/DoView1/DoView-release/releases/tag/v1.3.4) · [미서명 실행 안내](https://github.com/DoView1/DoView-release/releases/download/v1.3.4/WINDOWS-UNSIGNED.ko.md)
-
-[Linux AppImage](https://github.com/DoView1/DoView-release/releases/download/v1.3.5/DoView-1.3.5-linux-x86_64.AppImage) · [DEB](https://github.com/DoView1/DoView-release/releases/download/v1.3.5/DoView-1.3.5-linux-amd64.deb) · [tar.gz](https://github.com/DoView1/DoView-release/releases/download/v1.3.5/DoView-1.3.5-linux-x64.tar.gz) · [Linux 1.3.5 변경 사항](https://github.com/DoView1/DoView-release/releases/tag/v1.3.5)
 
 MS Store판 1.3.4는 심사 제출을 완료했으며, 아직 공개 출시하지 않았습니다.
 
@@ -88,7 +86,7 @@ DoView License - 자유로운 사용 및 재배포 허용 (상업적 이용 포�
 - 📚 **Archive Support** - ZIP, CBZ, 7Z, RAR, CBR, TAR
 - 🎨 **Image Adjustments** - Brightness, Contrast, Saturation, Sharpness
 - 🤖 **AI Translation (Windows 1.3.1)** - Install the local E4B Q4 engine and manage translation options in Settings > AI Services. Image and text translation require no API key or separate Python installation; engine downloads can resume after cancellation or restarting the app.
-- 🌍 **UI Languages** - Linux 1.3.5 supports 18 interface languages; the public Windows 1.3.4 release supports 11.
+- 🌍 **11 Languages** - Korean, English, Japanese, Chinese, etc.
 - 🎭 **4 Themes** - Light, Dark, DoView, AMOLED
 - 📊 **EXIF/IPTC Metadata** viewer
 - ⌨️ **Keyboard Shortcuts**
@@ -98,11 +96,9 @@ DoView License - 자유로운 사용 및 재배포 허용 (상업적 이용 포�
 
 [**Download Latest Release**](https://github.com/DoView1/DoView-release/releases/latest)
 
-The latest versions are **Windows 1.3.4** and **Linux x64 1.3.5**. New settings use **Fit entire image** by default; existing fit preferences are preserved. Linux 1.3.5 is available as AppImage, DEB, and tar.gz with 18 UI languages. The optional local AI engine currently runs on Windows x64 only.
+The latest versions are **Windows 1.3.4** and **Linux x64 1.3.2**. New settings use **Fit entire image** by default; existing fit preferences are preserved. Linux 1.3.4 is being validated; the existing 1.3.2 files remain available until it is ready. Version 1.3.5 is a private candidate for a coordinated Windows, Linux, macOS, and Store release.
 
 [Windows installer](https://github.com/DoView1/DoView-release/releases/download/v1.3.4/DoView-Setup-1.3.4.exe) · [Portable ZIP](https://github.com/DoView1/DoView-release/releases/download/v1.3.4/DoView.v1.3.4.zip) · [1.3.4 release notes](https://github.com/DoView1/DoView-release/releases/tag/v1.3.4)
-
-[Linux AppImage](https://github.com/DoView1/DoView-release/releases/download/v1.3.5/DoView-1.3.5-linux-x86_64.AppImage) · [DEB](https://github.com/DoView1/DoView-release/releases/download/v1.3.5/DoView-1.3.5-linux-amd64.deb) · [tar.gz](https://github.com/DoView1/DoView-release/releases/download/v1.3.5/DoView-1.3.5-linux-x64.tar.gz) · [Linux 1.3.5 release notes](https://github.com/DoView1/DoView-release/releases/tag/v1.3.5)
 
 Version 1.3.4 has been submitted to Microsoft Store certification and is not yet publicly released there.
 
