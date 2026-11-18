@@ -15,7 +15,7 @@
   <a href="https://github.com/DoView1/DoView-release/issues">문의·오류 제보</a>
 </p>
 
-이 저장소는 DoView의 **공식 배포와 사용자 안내**를 제공합니다. 아래 설명은 현재 GitHub 공개 버전인 **1.3.4**를 기준으로 합니다.
+이 저장소는 DoView의 **공식 배포와 사용자 안내**를 제공합니다. 아래 설명은 현재 GitHub 공개 버전인 **1.3.5**를 기준으로 합니다.
 
 <a id="download-ko"></a>
 
@@ -23,14 +23,15 @@
 
 | 운영체제 | 버전 | 다운로드 |
 | --- | --- | --- |
-| Windows x64 | 1.3.4 | [설치형 EXE](https://github.com/DoView1/DoView-release/releases/download/v1.3.4/DoView-Setup-1.3.4.exe) · [포터블 ZIP](https://github.com/DoView1/DoView-release/releases/download/v1.3.4/DoView.v1.3.4.zip) |
-| Linux x64 | 1.3.4 | [AppImage](https://github.com/DoView1/DoView-release/releases/download/v1.3.4/DoView-1.3.4-linux-x86_64.AppImage) · [DEB](https://github.com/DoView1/DoView-release/releases/download/v1.3.4/DoView-1.3.4-linux-amd64.deb) · [tar.gz](https://github.com/DoView1/DoView-release/releases/download/v1.3.4/DoView-1.3.4-linux-x64.tar.gz) |
+| Windows x64 | 1.3.5 | [설치형 EXE](https://github.com/DoView1/DoView-release/releases/download/v1.3.5/DoView-Setup-1.3.5.exe) · [포터블 ZIP](https://github.com/DoView1/DoView-release/releases/download/v1.3.5/DoView.v1.3.5.zip) |
+| Windows x64 · Microsoft Store | 1.3.5.0 | [스토어에서 설치](https://apps.microsoft.com/detail/9NCQ91P0RMMW) |
+| Linux x64 | 1.3.5 | [AppImage](https://github.com/DoView1/DoView-release/releases/download/v1.3.5/DoView-1.3.5-linux-x86_64.AppImage) · [DEB](https://github.com/DoView1/DoView-release/releases/download/v1.3.5/DoView-1.3.5-linux-amd64.deb) · [tar.gz](https://github.com/DoView1/DoView-release/releases/download/v1.3.5/DoView-1.3.5-linux-x64.tar.gz) |
 
-[최신 릴리스](https://github.com/DoView1/DoView-release/releases/latest) · [1.3.4 변경 사항](https://github.com/DoView1/DoView-release/releases/tag/v1.3.4) · [SHA-256 체크섬](https://github.com/DoView1/DoView-release/releases/download/v1.3.4/SHA256SUMS.txt)
+[최신 릴리스](https://github.com/DoView1/DoView-release/releases/latest) · [1.3.5 변경 사항](https://github.com/DoView1/DoView-release/releases/tag/v1.3.5) · [SHA-256 체크섬](https://github.com/DoView1/DoView-release/releases/download/v1.3.5/SHA256SUMS.txt)
 
 일반 열람에는 계정이나 AI 엔진이 필요하지 않습니다. 선택형 로컬 AI는 **Windows x64에서만** 제공합니다. 현재 이 저장소에는 macOS용 공개 배포 파일이 없습니다.
 
-Windows 배포 파일은 현재 미서명입니다. 게시자 확인 또는 SmartScreen 경고와 파일 확인 방법은 [Windows 실행 안내](https://github.com/DoView1/DoView-release/releases/download/v1.3.4/WINDOWS-UNSIGNED.ko.md)를 참고해 주세요.
+GitHub의 Windows 설치 파일은 미서명입니다. 내려받은 EXE를 확인하려면 PowerShell에서 `Get-FileHash .\DoView-Setup-1.3.5.exe`를 실행하고 위 체크섬과 비교해 주세요.
 
 ### 설치와 업데이트
 
@@ -60,7 +61,7 @@ Windows 배포 파일은 현재 미서명입니다. 게시자 확인 또는 Smar
 
 압축 파일은 직접 열어 내부의 지원 콘텐츠를 읽을 수 있습니다. CSV·JSON 같은 파일은 텍스트로 표시합니다. 문서의 구성·사용 글꼴·보호 방식에 따라 원본 프로그램과 표시가 다를 수 있습니다.
 
-**UI 언어 11개:** 한국어, 영어, 일본어, 중국어 간체, 독일어, 스페인어, 프랑스어, 이탈리아어, 러시아어, 태국어, 아랍어. 아랍어 문구는 제공하지만 화면 전체의 오른쪽→왼쪽 배치는 아직 완전히 적용되지 않았습니다.
+**UI 언어 18개**를 지원합니다. 한국어, 영어, 일본어, 중국어 간체·번체, 독일어, 스페인어, 프랑스어, 이탈리아어, 러시아어, 태국어, 아랍어, 네덜란드어, 브라질 포르투갈어, 폴란드어, 터키어, 인도네시아어, 베트남어를 선택할 수 있습니다. 아랍어 문구를 제공하며 화면 전체의 오른쪽→왼쪽 배치는 부분 지원합니다.
 
 ## 🤖 선택형 로컬 AI — Windows x64
 
@@ -128,20 +129,21 @@ PDF·DOCX·EPUB의 문서/원본 보기에서는 일부 동작이 다릅니다. 
 
 ## English
 
-**DoView is a free local image and document viewer** for webtoons, manga, photos, ebooks and text. This repository provides official downloads and user information. This guide covers the current public GitHub release, **1.3.4**.
+**DoView is a free local image and document viewer** for webtoons, manga, photos, ebooks and text. This repository provides official downloads and user information. This guide covers the current public GitHub release, **1.3.5**.
 
 ### 📦 Download
 
 | Platform | Version | Downloads |
 | --- | --- | --- |
-| Windows x64 | 1.3.4 | [Installer EXE](https://github.com/DoView1/DoView-release/releases/download/v1.3.4/DoView-Setup-1.3.4.exe) · [Portable ZIP](https://github.com/DoView1/DoView-release/releases/download/v1.3.4/DoView.v1.3.4.zip) |
-| Linux x64 | 1.3.4 | [AppImage](https://github.com/DoView1/DoView-release/releases/download/v1.3.4/DoView-1.3.4-linux-x86_64.AppImage) · [DEB](https://github.com/DoView1/DoView-release/releases/download/v1.3.4/DoView-1.3.4-linux-amd64.deb) · [tar.gz](https://github.com/DoView1/DoView-release/releases/download/v1.3.4/DoView-1.3.4-linux-x64.tar.gz) |
+| Windows x64 | 1.3.5 | [Installer EXE](https://github.com/DoView1/DoView-release/releases/download/v1.3.5/DoView-Setup-1.3.5.exe) · [Portable ZIP](https://github.com/DoView1/DoView-release/releases/download/v1.3.5/DoView.v1.3.5.zip) |
+| Windows x64 · Microsoft Store | 1.3.5.0 | [Get it from Microsoft Store](https://apps.microsoft.com/detail/9NCQ91P0RMMW) |
+| Linux x64 | 1.3.5 | [AppImage](https://github.com/DoView1/DoView-release/releases/download/v1.3.5/DoView-1.3.5-linux-x86_64.AppImage) · [DEB](https://github.com/DoView1/DoView-release/releases/download/v1.3.5/DoView-1.3.5-linux-amd64.deb) · [tar.gz](https://github.com/DoView1/DoView-release/releases/download/v1.3.5/DoView-1.3.5-linux-x64.tar.gz) |
 
-[Latest release](https://github.com/DoView1/DoView-release/releases/latest) · [1.3.4 release notes](https://github.com/DoView1/DoView-release/releases/tag/v1.3.4) · [SHA-256 checksums](https://github.com/DoView1/DoView-release/releases/download/v1.3.4/SHA256SUMS.txt)
+[Latest release](https://github.com/DoView1/DoView-release/releases/latest) · [1.3.5 release notes](https://github.com/DoView1/DoView-release/releases/tag/v1.3.5) · [SHA-256 checksums](https://github.com/DoView1/DoView-release/releases/download/v1.3.5/SHA256SUMS.txt)
 
 Ordinary viewing requires no account or AI engine. The optional local AI engine is available on **Windows x64 only**. This repository currently has no public macOS download.
 
-Windows builds are currently unsigned, so Windows may display publisher or SmartScreen warnings. See the [Windows launch guide (Korean)](https://github.com/DoView1/DoView-release/releases/download/v1.3.4/WINDOWS-UNSIGNED.ko.md) and checksums when checking a download.
+The Windows installer from GitHub is unsigned. To verify the download, run `Get-FileHash .\DoView-Setup-1.3.5.exe` in PowerShell and compare the result with the SHA-256 checksums above.
 
 ### Installation and updates
 
@@ -171,7 +173,7 @@ Windows builds are currently unsigned, so Windows may display publisher or Smart
 
 Open archives directly to read supported content inside. Files such as CSV and JSON are displayed as text. Document structure, fonts and protection can affect rendering compared with the original application.
 
-**11 interface languages:** Korean, English, Japanese, Simplified Chinese, German, Spanish, French, Italian, Russian, Thai and Arabic. Arabic strings are available, but full right-to-left UI layout is not yet implemented.
+**18 interface languages** are available. Choose from Korean, English, Japanese, Simplified and Traditional Chinese, German, Spanish, French, Italian, Russian, Thai, Arabic, Dutch, Brazilian Portuguese, Polish, Turkish, Indonesian and Vietnamese. Arabic includes translated text and partial right-to-left layout support.
 
 ### 🤖 Optional local AI — Windows x64
 
