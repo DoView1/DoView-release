@@ -15,7 +15,7 @@
   <a href="https://github.com/DoView1/DoView-release/issues">문의·오류 제보</a>
 </p>
 
-이 저장소는 DoView의 **공식 배포와 사용자 안내**를 제공합니다. 아래 설명은 현재 GitHub 공개 버전인 **1.3.5**를 기준으로 합니다.
+이 저장소는 DoView의 **공식 배포와 사용자 안내**를 제공합니다. 아래 설명은 현재 GitHub 공개 버전인 **1.3.6**를 기준으로 합니다.
 
 <a id="download-ko"></a>
 
@@ -23,15 +23,15 @@
 
 | 운영체제 | 버전 | 다운로드 |
 | --- | --- | --- |
-| Windows x64 | 1.3.5 | [설치형 EXE](https://github.com/DoView1/DoView-release/releases/download/v1.3.5/DoView-Setup-1.3.5.exe) · [포터블 ZIP](https://github.com/DoView1/DoView-release/releases/download/v1.3.5/DoView.v1.3.5.zip) |
+| Windows x64 | 1.3.6 | [설치형 EXE](https://github.com/DoView1/DoView-release/releases/download/v1.3.6/DoView-Setup-1.3.6.exe) · [포터블 ZIP](https://github.com/DoView1/DoView-release/releases/download/v1.3.6/DoView.v1.3.6.zip) |
 | Windows x64 · Microsoft Store | 1.3.5.0 | [스토어에서 설치](https://apps.microsoft.com/detail/9NCQ91P0RMMW) |
-| Linux x64 | 1.3.5 | [AppImage](https://github.com/DoView1/DoView-release/releases/download/v1.3.5/DoView-1.3.5-linux-x86_64.AppImage) · [DEB](https://github.com/DoView1/DoView-release/releases/download/v1.3.5/DoView-1.3.5-linux-amd64.deb) · [tar.gz](https://github.com/DoView1/DoView-release/releases/download/v1.3.5/DoView-1.3.5-linux-x64.tar.gz) |
+| Linux x64 | 1.3.6 | [AppImage](https://github.com/DoView1/DoView-release/releases/download/v1.3.6/DoView-1.3.6-linux-x86_64.AppImage) · [DEB](https://github.com/DoView1/DoView-release/releases/download/v1.3.6/DoView-1.3.6-linux-amd64.deb) · [tar.gz](https://github.com/DoView1/DoView-release/releases/download/v1.3.6/DoView-1.3.6-linux-x64.tar.gz) |
 
-[최신 릴리스](https://github.com/DoView1/DoView-release/releases/latest) · [1.3.5 변경 사항](https://github.com/DoView1/DoView-release/releases/tag/v1.3.5) · [SHA-256 체크섬](https://github.com/DoView1/DoView-release/releases/download/v1.3.5/SHA256SUMS.txt)
+[최신 릴리스](https://github.com/DoView1/DoView-release/releases/latest) · [1.3.6 변경 사항](https://github.com/DoView1/DoView-release/releases/tag/v1.3.6) · [SHA-256 체크섬](https://github.com/DoView1/DoView-release/releases/download/v1.3.6/SHA256SUMS.txt)
 
 일반 열람에는 계정이나 AI 엔진이 필요하지 않습니다. 선택형 로컬 AI는 **Windows x64에서만** 제공합니다. 현재 이 저장소에는 macOS용 공개 배포 파일이 없습니다.
 
-GitHub의 Windows 설치 파일은 미서명입니다. 내려받은 EXE를 확인하려면 PowerShell에서 `Get-FileHash .\DoView-Setup-1.3.5.exe`를 실행하고 위 체크섬과 비교해 주세요.
+GitHub의 Windows 설치 파일은 미서명입니다. 내려받은 EXE를 확인하려면 PowerShell에서 `Get-FileHash .\DoView-Setup-1.3.6.exe`를 실행하고 위 체크섬과 비교해 주세요.
 
 ### 설치와 업데이트
 
@@ -129,21 +129,21 @@ PDF·DOCX·EPUB의 문서/원본 보기에서는 일부 동작이 다릅니다. 
 
 ## English
 
-**DoView is a free local image and document viewer** for webtoons, manga, photos, ebooks and text. This repository provides official downloads and user information. This guide covers the current public GitHub release, **1.3.5**.
+**DoView is a free local image and document viewer** for webtoons, manga, photos, ebooks and text. This repository provides official downloads and user information. This guide covers the current public GitHub release, **1.3.6**.
 
 ### 📦 Download
 
 | Platform | Version | Downloads |
 | --- | --- | --- |
-| Windows x64 | 1.3.5 | [Installer EXE](https://github.com/DoView1/DoView-release/releases/download/v1.3.5/DoView-Setup-1.3.5.exe) · [Portable ZIP](https://github.com/DoView1/DoView-release/releases/download/v1.3.5/DoView.v1.3.5.zip) |
+| Windows x64 | 1.3.6 | [Installer EXE](https://github.com/DoView1/DoView-release/releases/download/v1.3.6/DoView-Setup-1.3.6.exe) · [Portable ZIP](https://github.com/DoView1/DoView-release/releases/download/v1.3.6/DoView.v1.3.6.zip) |
 | Windows x64 · Microsoft Store | 1.3.5.0 | [Get it from Microsoft Store](https://apps.microsoft.com/detail/9NCQ91P0RMMW) |
-| Linux x64 | 1.3.5 | [AppImage](https://github.com/DoView1/DoView-release/releases/download/v1.3.5/DoView-1.3.5-linux-x86_64.AppImage) · [DEB](https://github.com/DoView1/DoView-release/releases/download/v1.3.5/DoView-1.3.5-linux-amd64.deb) · [tar.gz](https://github.com/DoView1/DoView-release/releases/download/v1.3.5/DoView-1.3.5-linux-x64.tar.gz) |
+| Linux x64 | 1.3.6 | [AppImage](https://github.com/DoView1/DoView-release/releases/download/v1.3.6/DoView-1.3.6-linux-x86_64.AppImage) · [DEB](https://github.com/DoView1/DoView-release/releases/download/v1.3.6/DoView-1.3.6-linux-amd64.deb) · [tar.gz](https://github.com/DoView1/DoView-release/releases/download/v1.3.6/DoView-1.3.6-linux-x64.tar.gz) |
 
-[Latest release](https://github.com/DoView1/DoView-release/releases/latest) · [1.3.5 release notes](https://github.com/DoView1/DoView-release/releases/tag/v1.3.5) · [SHA-256 checksums](https://github.com/DoView1/DoView-release/releases/download/v1.3.5/SHA256SUMS.txt)
+[Latest release](https://github.com/DoView1/DoView-release/releases/latest) · [1.3.6 release notes](https://github.com/DoView1/DoView-release/releases/tag/v1.3.6) · [SHA-256 checksums](https://github.com/DoView1/DoView-release/releases/download/v1.3.6/SHA256SUMS.txt)
 
 Ordinary viewing requires no account or AI engine. The optional local AI engine is available on **Windows x64 only**. This repository currently has no public macOS download.
 
-The Windows installer from GitHub is unsigned. To verify the download, run `Get-FileHash .\DoView-Setup-1.3.5.exe` in PowerShell and compare the result with the SHA-256 checksums above.
+The Windows installer from GitHub is unsigned. To verify the download, run `Get-FileHash .\DoView-Setup-1.3.6.exe` in PowerShell and compare the result with the SHA-256 checksums above.
 
 ### Installation and updates
 
