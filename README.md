@@ -24,7 +24,7 @@
 | 운영체제 | 버전 | 다운로드 |
 | --- | --- | --- |
 | Windows x64 | 1.3.7 | [설치형 EXE](https://github.com/DoView1/DoView-release/releases/download/v1.3.7/DoView-Setup-1.3.7.exe) · [포터블 ZIP](https://github.com/DoView1/DoView-release/releases/download/v1.3.7/DoView.v1.3.7.zip) |
-| Windows x64 · Microsoft Store | 1.3.5.0 | [스토어에서 설치](https://apps.microsoft.com/detail/9NCQ91P0RMMW) |
+| Windows x64 · Microsoft Store | 1.3.7.0 | [스토어에서 설치](https://apps.microsoft.com/detail/9NCQ91P0RMMW) |
 | Linux x64 | 1.3.6 | [AppImage](https://github.com/DoView1/DoView-release/releases/download/v1.3.6/DoView-1.3.6-linux-x86_64.AppImage) · [DEB](https://github.com/DoView1/DoView-release/releases/download/v1.3.6/DoView-1.3.6-linux-amd64.deb) · [tar.gz](https://github.com/DoView1/DoView-release/releases/download/v1.3.6/DoView-1.3.6-linux-x64.tar.gz) |
 
 [최신 릴리스](https://github.com/DoView1/DoView-release/releases/latest) · [1.3.7 변경 사항](https://github.com/DoView1/DoView-release/releases/tag/v1.3.7) · [SHA-256 체크섬](https://github.com/DoView1/DoView-release/releases/download/v1.3.7/SHA256SUMS.txt)
@@ -137,7 +137,7 @@ PDF·DOCX·EPUB의 문서/원본 보기에서는 일부 동작이 다릅니다. 
 | Platform | Version | Downloads |
 | --- | --- | --- |
 | Windows x64 | 1.3.7 | [Installer EXE](https://github.com/DoView1/DoView-release/releases/download/v1.3.7/DoView-Setup-1.3.7.exe) · [Portable ZIP](https://github.com/DoView1/DoView-release/releases/download/v1.3.7/DoView.v1.3.7.zip) |
-| Windows x64 · Microsoft Store | 1.3.5.0 | [Get it from Microsoft Store](https://apps.microsoft.com/detail/9NCQ91P0RMMW) |
+| Windows x64 · Microsoft Store | 1.3.7.0 | [Get it from Microsoft Store](https://apps.microsoft.com/detail/9NCQ91P0RMMW) |
 | Linux x64 | 1.3.6 | [AppImage](https://github.com/DoView1/DoView-release/releases/download/v1.3.6/DoView-1.3.6-linux-x86_64.AppImage) · [DEB](https://github.com/DoView1/DoView-release/releases/download/v1.3.6/DoView-1.3.6-linux-amd64.deb) · [tar.gz](https://github.com/DoView1/DoView-release/releases/download/v1.3.6/DoView-1.3.6-linux-x64.tar.gz) |
 
 [Latest release](https://github.com/DoView1/DoView-release/releases/latest) · [1.3.7 release notes](https://github.com/DoView1/DoView-release/releases/tag/v1.3.7) · [SHA-256 checksums](https://github.com/DoView1/DoView-release/releases/download/v1.3.7/SHA256SUMS.txt)
