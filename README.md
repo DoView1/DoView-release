@@ -15,7 +15,7 @@
   <a href="https://github.com/DoView1/DoView-release/issues">문의·오류 제보</a>
 </p>
 
-이 저장소는 DoView의 **공식 배포와 사용자 안내**를 제공합니다. 아래 설명은 현재 GitHub 공개 버전인 **1.3.6**를 기준으로 합니다.
+이 저장소는 DoView의 **공식 배포와 사용자 안내**를 제공합니다. GitHub에서 Windows용 **1.3.7**과 Linux용 **1.3.6**을 받을 수 있습니다.
 
 <a id="download-ko"></a>
 
@@ -23,15 +23,15 @@
 
 | 운영체제 | 버전 | 다운로드 |
 | --- | --- | --- |
-| Windows x64 | 1.3.6 | [설치형 EXE](https://github.com/DoView1/DoView-release/releases/download/v1.3.6/DoView-Setup-1.3.6.exe) · [포터블 ZIP](https://github.com/DoView1/DoView-release/releases/download/v1.3.6/DoView.v1.3.6.zip) |
+| Windows x64 | 1.3.7 | [설치형 EXE](https://github.com/DoView1/DoView-release/releases/download/v1.3.7/DoView-Setup-1.3.7.exe) · [포터블 ZIP](https://github.com/DoView1/DoView-release/releases/download/v1.3.7/DoView.v1.3.7.zip) |
 | Windows x64 · Microsoft Store | 1.3.5.0 | [스토어에서 설치](https://apps.microsoft.com/detail/9NCQ91P0RMMW) |
 | Linux x64 | 1.3.6 | [AppImage](https://github.com/DoView1/DoView-release/releases/download/v1.3.6/DoView-1.3.6-linux-x86_64.AppImage) · [DEB](https://github.com/DoView1/DoView-release/releases/download/v1.3.6/DoView-1.3.6-linux-amd64.deb) · [tar.gz](https://github.com/DoView1/DoView-release/releases/download/v1.3.6/DoView-1.3.6-linux-x64.tar.gz) |
 
-[최신 릴리스](https://github.com/DoView1/DoView-release/releases/latest) · [1.3.6 변경 사항](https://github.com/DoView1/DoView-release/releases/tag/v1.3.6) · [SHA-256 체크섬](https://github.com/DoView1/DoView-release/releases/download/v1.3.6/SHA256SUMS.txt)
+[최신 릴리스](https://github.com/DoView1/DoView-release/releases/latest) · [1.3.7 변경 사항](https://github.com/DoView1/DoView-release/releases/tag/v1.3.7) · [SHA-256 체크섬](https://github.com/DoView1/DoView-release/releases/download/v1.3.7/SHA256SUMS.txt)
 
 일반 열람에는 계정이나 AI 엔진이 필요하지 않습니다. 선택형 로컬 AI는 **Windows x64에서만** 제공합니다. 현재 이 저장소에는 macOS용 공개 배포 파일이 없습니다.
 
-GitHub의 Windows 설치 파일은 미서명입니다. 내려받은 EXE를 확인하려면 PowerShell에서 `Get-FileHash .\DoView-Setup-1.3.6.exe`를 실행하고 위 체크섬과 비교해 주세요.
+GitHub의 Windows 설치 파일은 미서명입니다. 내려받은 EXE를 확인하려면 PowerShell에서 `Get-FileHash .\DoView-Setup-1.3.7.exe`를 실행하고 위 체크섬과 비교해 주세요.
 
 ### 설치와 업데이트
 
@@ -69,7 +69,8 @@ GitHub의 Windows 설치 파일은 미서명입니다. 내려받은 EXE를 확�
 
 - **이미지 번역:** 이미지 속 영어·일본어를 OCR로 읽어 번역합니다. UI 언어 지원과 이미지 원문 인식 언어는 서로 다릅니다.
 - **텍스트 AI:** 텍스트 번역, 요약, 문서 내용에 관한 질문을 지원합니다.
-- **설치 용량:** 엔진 다운로드 약 **11.30 GB**, 새 설치에 필요한 여유 공간 약 **11.57 GB**입니다. 저장된 번역과 캐시를 위한 추가 공간도 확보해 주세요. 다운로드는 취소하거나 앱을 다시 시작한 뒤 이어받을 수 있습니다.
+- **설치 용량** — 처음에는 약 **11.28 GB**를 받으며 약 **11.55 GB**의 여유 공간이 필요합니다. 이전 공개 엔진의 파일이 온전하면 약 **17.87 MB**만 받습니다. 저장한 번역과 캐시에는 별도 공간이 필요합니다. 다운로드는 취소하거나 앱을 다시 시작한 뒤 이어받을 수 있습니다.
+- **저장 위치와 가속** — 설정에서 엔진을 받을 폴더를 고를 수 있습니다. 외장 드라이브는 NTFS나 exFAT를 사용하세요. 엔진을 삭제한 뒤에도 저장한 번역은 열 수 있습니다. 메모리 8 GB PC에서는 한 쪽 번역에 1~2분이 걸릴 수 있습니다. 자동 가속에서 문제가 생기면 AI 설정에서 CPU를 선택하세요.
 - **처리 방식:** 설치 후 AI 처리는 이 컴퓨터에서 수행합니다. 실행 가능 여부와 속도는 RAM·GPU·드라이버 등에 따라 달라지며, 번역·인식·요약 결과는 틀릴 수 있습니다.
 
 기본 파일 열람에는 AI 엔진을 설치하지 않아도 됩니다. 앱·엔진 업데이트 확인과 다운로드에는 인터넷을 사용합니다.
@@ -129,21 +130,21 @@ PDF·DOCX·EPUB의 문서/원본 보기에서는 일부 동작이 다릅니다. 
 
 ## English
 
-**DoView is a free local image and document viewer** for webtoons, manga, photos, ebooks and text. This repository provides official downloads and user information. This guide covers the current public GitHub release, **1.3.6**.
+**DoView is a free local image and document viewer** for webtoons, manga, photos, ebooks and text. This repository provides official downloads and user information. The GitHub downloads are **1.3.7 for Windows** and **1.3.6 for Linux**.
 
 ### 📦 Download
 
 | Platform | Version | Downloads |
 | --- | --- | --- |
-| Windows x64 | 1.3.6 | [Installer EXE](https://github.com/DoView1/DoView-release/releases/download/v1.3.6/DoView-Setup-1.3.6.exe) · [Portable ZIP](https://github.com/DoView1/DoView-release/releases/download/v1.3.6/DoView.v1.3.6.zip) |
+| Windows x64 | 1.3.7 | [Installer EXE](https://github.com/DoView1/DoView-release/releases/download/v1.3.7/DoView-Setup-1.3.7.exe) · [Portable ZIP](https://github.com/DoView1/DoView-release/releases/download/v1.3.7/DoView.v1.3.7.zip) |
 | Windows x64 · Microsoft Store | 1.3.5.0 | [Get it from Microsoft Store](https://apps.microsoft.com/detail/9NCQ91P0RMMW) |
 | Linux x64 | 1.3.6 | [AppImage](https://github.com/DoView1/DoView-release/releases/download/v1.3.6/DoView-1.3.6-linux-x86_64.AppImage) · [DEB](https://github.com/DoView1/DoView-release/releases/download/v1.3.6/DoView-1.3.6-linux-amd64.deb) · [tar.gz](https://github.com/DoView1/DoView-release/releases/download/v1.3.6/DoView-1.3.6-linux-x64.tar.gz) |
 
-[Latest release](https://github.com/DoView1/DoView-release/releases/latest) · [1.3.6 release notes](https://github.com/DoView1/DoView-release/releases/tag/v1.3.6) · [SHA-256 checksums](https://github.com/DoView1/DoView-release/releases/download/v1.3.6/SHA256SUMS.txt)
+[Latest release](https://github.com/DoView1/DoView-release/releases/latest) · [1.3.7 release notes](https://github.com/DoView1/DoView-release/releases/tag/v1.3.7) · [SHA-256 checksums](https://github.com/DoView1/DoView-release/releases/download/v1.3.7/SHA256SUMS.txt)
 
 Ordinary viewing requires no account or AI engine. The optional local AI engine is available on **Windows x64 only**. This repository currently has no public macOS download.
 
-The Windows installer from GitHub is unsigned. To verify the download, run `Get-FileHash .\DoView-Setup-1.3.6.exe` in PowerShell and compare the result with the SHA-256 checksums above.
+The Windows installer from GitHub is unsigned. To verify the download, run `Get-FileHash .\DoView-Setup-1.3.7.exe` in PowerShell and compare the result with the SHA-256 checksums above.
 
 ### Installation and updates
 
@@ -181,7 +182,8 @@ Download the local E4B Q4 engine or connect a compatible existing engine in **Se
 
 - **Image translation:** OCR recognizes English and Japanese text in images for translation. Interface languages and OCR source languages are separate capabilities.
 - **Text AI:** Translate or summarize text and ask questions about document content.
-- **Storage:** Approximately **11.30 GB** to download and **11.57 GB** of free space for a new installation. Leave additional room for saved translations and caches. Downloads can resume after cancellation or an app restart.
+- **Storage** — A fresh installation downloads about **11.28 GB** and requires about **11.55 GB** of free space. Updating an intact copy of the previous public engine downloads about **17.87 MB**. Leave additional room for saved translations and caches. Downloads can resume after cancellation or an app restart.
+- **Engine location and acceleration** — Choose an engine folder in Settings. Use NTFS or exFAT for an external drive. Saved translations remain available after you remove the engine. On an 8 GB PC, a page can take one to two minutes to translate. If automatic acceleration has trouble, select CPU in AI settings.
 - **Processing:** AI runs on your computer after installation. Availability and speed depend on RAM, GPU, drivers and other system resources. Recognition, translations and summaries can be inaccurate.
 
 Ordinary viewing works without the AI engine. App and engine update checks and downloads use the internet.
